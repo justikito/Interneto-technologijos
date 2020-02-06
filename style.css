@@ -1,11 +1,11 @@
-.header img{
+header img{
 	float: left;
 	margin-top: 44px;
 	margin-left: 100px;
 	margin-right: 50px;
 }
 
-.header a{
+header a{
  	color: white;
  	text-decoration: none;
  	padding: 0px;
@@ -18,7 +18,7 @@
 	vertical-align: top;
 }
 
-.header a:hover{
+header a:hover{
 	border-bottom: 2px solid white;
 }
 
@@ -40,6 +40,7 @@
 
 .content{
 	color: white;
+	font-family: "SourceSansPro";
 	font-size: 50px;
 	margin-top: 100px;
 	margin-left: 100px;
