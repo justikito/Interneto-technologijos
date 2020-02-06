@@ -38,6 +38,13 @@
 	padding: 15px;
 }
 
+.content{
+	color: white;
+	font-size: 50px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
 body {
 	background: url(front_page_PNG.png);
 	background-repeat: no-repeat;
