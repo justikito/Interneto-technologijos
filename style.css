@@ -8,6 +8,7 @@ header img{
 header a{
  	color: white;
  	text-decoration: none;
+ 	font-family: "SourceSansPro", sans-serif;
  	padding: 0px;
  	margin-left: 15px;
  	margin-right: 15px;
@@ -29,6 +30,15 @@ header .home{
 	margin-right: 80px;
 }
 
+.login .signup{
+	color: #1A3AC7;
+	background-color: white;
+	border-radius: 3px;
+	padding: 20px 40px 20px 40px;
+	margin-top: 46px;
+	font-weight: bold;
+}
+
 article{
 	color: white;
 	font-family: "SourceSansPro", sans-serif;
@@ -44,6 +54,17 @@ article p{
 article img{
 	margin-top: 30px;
 }
+
+article .dot, article .dot1{
+	height: 15px;
+	width: 15px;
+	background-color: #4677FF;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+
 
 body {
 	background: url(front_page_PNG.png);
