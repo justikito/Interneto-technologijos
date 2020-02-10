@@ -64,10 +64,11 @@ article .dot, article .dot1{
 	margin-right: 25px;
 }
 
-.dot1{
+article .dot1{
 	margin-top: 5px;
 	border: 5px solid;
 	border-color: #FFB600;
+	background-color: #0043ff;
 }
 
 .dot{
