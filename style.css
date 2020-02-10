@@ -56,15 +56,23 @@ article img{
 }
 
 article .dot, article .dot1{
-	height: 15px;
-	width: 15px;
+	height: 13px;
+	width: 13px;
 	background-color: #4677FF;
 	border-radius: 50%;
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 25px;
 }
 
+.dot1{
+	margin-top: 5px;
+	border: 5px solid;
+	border-color: #FFB600;
+}
 
+.dot{
+	margin-bottom: 5px;
+}
 
 body {
 	background: url(front_page_PNG.png);
