@@ -8,7 +8,7 @@ header img{
 header a{
  	color: white;
  	text-decoration: none;
- 	font-family: "SourceSansPro", sans-serif;
+ 	font-family: sans-serif;
  	padding: 0px;
  	margin-left: 15px;
  	margin-right: 15px;
@@ -41,7 +41,7 @@ header .home{
 
 article{
 	color: white;
-	font-family: "SourceSansPro", sans-serif;
+	font-family: sans-serif;
 	font-size: 80px;
 	margin-top: 100px;
 	margin-left: 100px;
@@ -49,6 +49,7 @@ article{
 
 article p{
 	font-size: 20px;
+	font-family: "SourceSansLight", sans-serif;
 }
 
 article img{
@@ -79,4 +80,13 @@ body {
 	background: url(front_page_PNG.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+@font-face {
+    font-family: 'SourceSansLight';
+    src: url('sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('sourcesanspro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
