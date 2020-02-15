@@ -1,23 +1,19 @@
-header img {
-	float: left;
-	margin-top: 44px;
-	margin-left: 100px;
-	margin-right: 50px;
+img {
+	margin-left: 60px;
+	margin-right: 35px;
 }
 
-header a {
- 	color: white;
- 	text-decoration: none;
- 	font-family: sans-serif;
- 	margin-right: 25px;
- 	font-size: 11px;
-	margin-top: 33px;
-	text-align: left;
+nav a {
+	color: white;
+	margin-right: 25px;
+	margin-left: 15px;
+	font-size: 11px;
+	margin-top: 35px;
 	display: inline-block;
-	vertical-align: top;
 }
 
-header .home {
+
+.home {
 	border-bottom: 3px solid white;
 }
 
@@ -25,7 +21,9 @@ header .home {
 	vertical-align: top;
 	display: inline-block;
 	float: right;
-	margin-right: 80px;
+	margin-right: 0px;
+	text-align: left;
+	
 }
 
 .login .signup {
@@ -81,7 +79,7 @@ article .dot1 {
 }
 
 .dot{
-	margin-bottom: 4px;
+	margin-bottom: 10px;
 }
 
 body {
