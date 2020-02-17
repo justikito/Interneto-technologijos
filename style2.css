@@ -7,7 +7,7 @@ nav a {
 	color: white;
 	margin-right: 25px;
 	margin-left: 15px;
-	font-size: 11px;
+	font-size: 13px;
 	margin-top: 35px;
 	display: inline-block;
 }
@@ -17,34 +17,16 @@ nav a {
 	border-bottom: 3px solid white;
 }
 
-.login {
-	vertical-align: top;
-	display: inline-block;
-	float: right;
-	margin-right: 0px;
-	text-align: left;
-	
-}
-
-.login .signup {
-	color: #1A3AC7;
-	background-color: white;
-	border-radius: 3px;
-	padding: 15px 30px;
-	font-weight: bold;
-	margin-top: 20px;
-}
-
 article {
 	color: white;
 	font-family: sans-serif;
-	font-size: 62px;
-	margin-top: 100px;
+	font-size: 5.9vw;
+	margin-top: 30px;
 	margin-left: 100px;
 }
 
 article p {
-	font-size: 15px;
+	font-size: 2.4vmin;
 	font-family: "SourceSansLight", sans-serif;
 }
 
@@ -62,24 +44,20 @@ article .create {
 }
 
 article .dot, article .dot1 {
-	height: 11px;
-	width: 11px;
+	height: 16px;
+	width: 16px;
 	background-color: #4677FF;
 	border-radius: 50%;
 	display: inline-block;
 	margin-right: 20px;
-	margin-top: 120px;
+	margin-top: 50px;
 	vertical-align: right;
 }
 
 article .dot1 {
-	border: 4px solid;
+	border: 3px solid;
 	border-color: #FFB600;
 	background-color: #0043ff;
-}
-
-.dot{
-	margin-bottom: 10px;
 }
 
 body {
@@ -96,4 +74,18 @@ body {
     font-weight: normal;
     font-style: normal;
 
+}
+
+.nav-pills .nav-link.active {
+    background-color: #ffffff!important;
+	color: blue!important
+}
+
+.nav>li>a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.nav-pills{
+    width:80%;
 }
