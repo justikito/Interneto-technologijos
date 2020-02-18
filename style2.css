@@ -83,7 +83,8 @@ body {
 
 .nav-pills .nav-link.active {
     background-color: #ffffff!important;
-	color: blue!important
+	color: blue!important;
+	font-weight: bold;
 }
 
 .nav>li>a {
