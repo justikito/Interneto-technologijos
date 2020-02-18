@@ -39,9 +39,6 @@ article .create {
 	color: white;
  	text-decoration: none;
  	font-family: sans-serif;
-	text-align: top;
-	display: inline-block;
-	vertical-align: top;
 	background-color: #ff5969;
 	border-radius: 6px;
 	padding: 15px 25px 15px 25px;
@@ -71,25 +68,23 @@ body {
 	background-size: cover;
 }
 
-
 @font-face {
     font-family: 'SourceSansLight';
     src: url('sourcesanspro-light-webfont.woff2') format('woff2'),
          url('sourcesanspro-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 .nav-pills .nav-link.active {
-    background-color: #ffffff!important;
-	color: blue!important;
+    background-color: white;
+	color: blue;
 	font-weight: bold;
 }
 
-.nav>li>a {
-    padding-top: 12px;
-    padding-bottom: 12px;
+.signup {
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .nav-pills{
