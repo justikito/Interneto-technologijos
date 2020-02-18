@@ -1,69 +1,66 @@
-header img{
-	float: left;
-	margin-top: 44px;
-	margin-left: 100px;
-	margin-right: 50px;
+img {
+	margin-top: -5px;
+	margin-left: 50px;
+	margin-right: 10px;
 }
 
-header a{
- 	color: white;
- 	text-decoration: none;
- 	font-family: sans-serif;
- 	padding: 0px;
- 	margin-left: 15px;
- 	margin-right: 15px;
- 	font-size: 15px;
-	margin-top: 66px;
-	text-align: left;
+nav a {
+	color: white;
+	font-size: 13px;
+	margin-top: 35px;
+	margin-right: 20px;
 	display: inline-block;
-	vertical-align: top;
 }
 
-header .home{
+#meniu a:hover{
+	color: white;
+	text-decoration: none;
 	border-bottom: 3px solid white;
 }
 
-.login{
-	vertical-align: top;
-	display: inline-block;
-	float: right;
-	margin-right: 80px;
+.home {
+	border-bottom: 3px solid white;
 }
 
-.login .signup{
-	color: #1A3AC7;
-	background-color: white;
-	border-radius: 3px;
-	padding: 20px 40px 20px 40px;
-	margin-top: 46px;
-	font-weight: bold;
+.signin{
+	margin-top: 44.5px;
 }
 
-article{
+.signin:hover{
 	color: white;
-	font-family: sans-serif;
-	font-size: 80px;
-	margin-top: 100px;
-	margin-left: 100px;
+	text-decoration: none;
 }
 
-article p{
-	font-size: 20px;
-	font-family: "SourceSansLight", sans-serif;
-}
-
-article img{
+.signup{
+	padding: 15px 200px;
 	margin-top: 30px;
 }
 
-article .button{
-	text-decoration: none;
+article {
 	color: white;
 	font-family: sans-serif;
-	font-size: 15px;
+	font-size: 5.9vw;
+	margin-top: 70px;
+	margin-left: 100px;
+}
+
+article p {
+	font-size: 2.4vmin;
+	font-family: "SourceSansLight", sans-serif;
+}
+
+article .create {
+	color: white;
+ 	text-decoration: none;
+ 	font-family: sans-serif;
 	background-color: #ff5969;
-	border-radius: 10px;
-	padding: 25px;
+	border-radius: 6px;
+	padding: 17px 27px;
+	font-size: 12px;
+}
+
+article .dot{
+	margin-bottom: 4px;
 }
 
 article .dot, article .dot1{
@@ -72,18 +69,15 @@ article .dot, article .dot1{
 	background-color: #4677FF;
 	border-radius: 50%;
 	display: inline-block;
-	margin-right: 25px;
+	margin-right: 5px;
 }
 
 article .dot1{
-	margin-top: 5px;
-	border: 5px solid;
-	border-color: #FFB600;
+	height: 20px;
+	width: 20px;
 	background-color: #0043ff;
-}
-
-.dot{
-	margin-bottom: 5px;
+	border: 4px solid;
+	border-color: #FFB600;
 }
 
 body {
@@ -95,8 +89,18 @@ body {
 @font-face {
     font-family: 'SourceSansLight';
     src: url('sourcesanspro-light-webfont.woff2') format('woff2'),
-         url('sourcesanspro-light-webfont.woff') format('woff');
+    url('sourcesanspro-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
+}
+
+.nav-pills .nav-link.active{
+	background-color: white;
+	color: blue;
+	font-weight: bold;
+}
+
+.nav-pills{
+    width:72%;
 }
