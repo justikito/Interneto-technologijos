@@ -12,16 +12,28 @@ nav a {
 	display: inline-block;
 }
 
+#meniu a:hover{
+	color: white;
+	text-decoration: none;
+	border-bottom: 3px solid white;
+}
+
 .home {
 	border-bottom: 3px solid white;
 }
 
 .signin{
-	margin-top: 53px;
+	margin-top: 44.5px;
+}
+
+.signin:hover{
+	color: white;
+	text-decoration: none;
 }
 
 .signup{
-	padding: 15px 2px;
+	padding: 15px 200px;
+	margin-top: 30px;
 }
 
 article {
