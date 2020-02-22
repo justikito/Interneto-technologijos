@@ -13,32 +13,56 @@
 </head>
 <body>
 	<div class="container-fluid">
-		<nav class="navbar navbar-expand-md">
+		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="#">
 				<img src="VIZZY_logo.png">
 			</a>
-			<ul class="navbar-nav nav nav-pills nav-justified" style="margin-left: 50px">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+			<ul class="navbar-nav nav nav-pills nav-justified mr-auto mt-2 mt-lg-0">
 				<li class="nav-item"><a class = "home" href="#home">HOME</a></li>
-				<li class="nav-item"><a href="#products">PRODUCTS</a></li>
-				<li class="nav-item"><a href="#templates">TEMPLATES</a></li>
-				<li class="nav-item"><a href="#pricing">PRICING</a></li>
+				<li class="nav-item"><a class = "home" href="#products">PRODUCTS</a></li>
+				<li class="nav-item"><a class = "home" href="#templates">TEMPLATES</a></li>
+				<li class="nav-item"><a class = "home" href="#pricing">PRICING</a></li>
+				<li class="nav-item"><a class="signin home" href="#signin">SIGN IN</a></li>
+				<!--<li class="nav-item"><a class="nav-link active nav-link-color signup" href="#signup">SIGN UP</a></li>-->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">SIGN UP</button>
 			</ul>
-			<ul class="navbar-nav nav nav-pills nav-justified signup" style="margin-left: 50px">
-				<li class="nav-item"><a href="#">SIGN IN</a></li>
-				<li class="nav-item"><a class ="nav-link active nav-link-color" href="#">SIGN UP</a></li>
-			</ul>
+			</div>
+
+			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">SIGN UP HERE</div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">SIGN UP</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			
 		</nav>
 	</div>
 
 	<article>
+		<div class="text-justify">
 		<b>Create Stunning <br> Visual Media</b>
 		<p>Super simple tool to create trendy videos and pictures <br> for your ads, social media, blogs and websites. <br> Make your project stand out!</p>
-		<br>
-		<a class="create" href="#"><b>CREATE DESIGN ➜</b></a><br>
-		<a class="dot1" href="#">
-		<a class="dot" href="#">
-		<a class="dot" href="#">
-		<a class="dot" href="#">
+			<a class="create" href="#"><b>CREATE DESIGN ➜</b></a><br>
+			<a class="dot1" href="#"></a>
+			<a class="dot" href="#"></a>
+			<a class="dot" href="#"></a>
+			<a class="dot" href="#"></a>
+		</div>
 	</article>
 </body>
 </html>
