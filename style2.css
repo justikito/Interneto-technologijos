@@ -12,6 +12,22 @@ nav a {
 	display: inline-block;
 }
 
+.home{
+	border-bottom: 3px solid white;
+}
+
+.templates{
+	border-bottom: 3px solid white;
+}
+
+.pricing{
+	border-bottom: 3px solid white;
+}
+
+.products{
+	border-bottom: 3px solid white;
+}
+
 #meniu a:hover{
 	color: white;
 	text-decoration: none;
@@ -20,11 +36,9 @@ nav a {
 
 .signin{
 	margin-top: 35px;
-}
-
-.signup{
+	color: white;
+	font-size: 13px;
 	margin-top: 20px;
-	padding: 15px 2px;
 }
 
 .signin:hover{
@@ -53,6 +67,10 @@ article .create {
 	border-radius: 6px;
 	padding: 15px 25px;
 	font-size: 10px;
+}
+
+.home{
+	border-bottom: 3px solid white;
 }
 
 article .dot {
@@ -98,7 +116,7 @@ body {
 @font-face {
     font-family: 'SourceSansLight';
     src: url('sourcesanspro-light-webfont.woff2') format('woff2'),
-         url('sourcesanspro-light-webfont.woff') format('woff');
+    url('sourcesanspro-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -117,16 +135,16 @@ body {
     background-color: white;
 }
 
-ul .btn-primary {
+.signup {
 	background-color: white;
 	color: blue;
 	font-weight: bold;
 	margin-top: 18px;
 	font-size: 13px;
-	padding: 15x 20px;
+	padding: 15px 20px;
 }
 
-ul .btn-primary:hover {
+.signup:hover {
 	background-color: blue;
 	color: white;
 }
