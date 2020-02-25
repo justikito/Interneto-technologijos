@@ -76,7 +76,7 @@ article .dot {
 	margin-bottom: 1px;
 }
 
-article .dot, article .dot1 {
+article .dot{
 	height: 16px;
 	width: 16px;
 	background-color: #4677FF;
@@ -84,7 +84,7 @@ article .dot, article .dot1 {
 	display: inline-block;
 }
 
-article .dot1 {
+article .dot:hover {
 	height: 20px;
 	width: 20px;
 	border: 3px solid;
