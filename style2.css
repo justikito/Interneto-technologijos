@@ -35,10 +35,9 @@ nav a {
 }
 
 .signin{
-	margin-top: 35px;
 	color: white;
 	font-size: 13px;
-	margin-top: 20px;
+	margin-top: 25px;
 }
 
 .signin:hover{
@@ -127,7 +126,7 @@ body {
 	background-color: white;
 	color: blue;
 	font-weight: bold;
-	margin-top: 18px;
+	margin-top: 22px;
 	font-size: 12px;
 	padding: 12px 27px;
 	border: none;
@@ -140,9 +139,12 @@ body {
 
 .tekstolaukas {
 	background-color: white;
-	color:black;
+	color: black;
 	margin-left: 100px;
 	margin-top: 50px;
 	margin-right: 50px;
+	border-radius: 25px;
+	padding: 20px;
+	opacity: 0.85;
 }
 
