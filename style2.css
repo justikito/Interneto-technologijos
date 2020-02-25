@@ -123,10 +123,6 @@ body {
     width:89%;
 }
 
-.perejimas {
-    background-color: white;
-}
-
 .signup {
 	background-color: white;
 	color: blue;
@@ -140,5 +136,13 @@ body {
 .signup:hover {
 	background-color: blue;
 	color: white;
+}
+
+.tekstolaukas {
+	background-color: white;
+	color:black;
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-right: 50px;
 }
 

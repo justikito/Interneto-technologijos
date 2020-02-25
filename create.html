@@ -12,7 +12,7 @@
 
 </head>
 <body>
-	<div class="container-fluid">
+<div class="container-fluid">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="index2.html">
 				<img src="VIZZY_logo.png">
@@ -22,16 +22,17 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 			<ul class="navbar-nav nav nav-pills nav-justified mr-auto mt-2 mt-lg-0" id="meniu">
-				<li class="nav-item"><a href="index2.html">HOME</a></li>
-				<li class="nav-item"><a href="#products">PRODUCTS</a></li>
-				<li class="nav-item"><a href="#templates">TEMPLATES</a></li>
-				<li class="nav-item"><a href="#pricing">PRICING</a></li>
-				<li class="nav-item"><a class="signin" href="#signin">SIGN IN</a></li>
-				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">SIGN UP</button>
+				<li class="nav-item"><a class="home" href="index2.html">HOME</a></li>
+				<li class="nav-item"><a href="products.html">PRODUCTS</a></li>
+				<li class="nav-item"><a href="templates.html">TEMPLATES</a></li>
+				<li class="nav-item"><a href="pricing.html">PRICING</a></li>
+				<button type="button" class="btn btn-link signin" data-toggle="modal" data-target="#SIGNIN">SIGN IN</a></li>
+				<button type="button" class="btn btn-primary signup" data-toggle="modal" data-target="#SIGNUP">SIGN UP</button>
 			</ul>
 			</div>
 
-			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<!-- SIGN UP pop-up mygtukas -->
+			<div class="modal fade" id="SIGNUP" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 			  <div class="modal-dialog modal-dialog-centered" role="document">
 				<div class="modal-content">
 				  <div class="modal-header">
@@ -47,9 +48,31 @@
 				  </div>
 				</div>
 			  </div>
-			</div>
+			</div>	
+			<!-- SIGN IN pop-up mygtukas -->
+			<div class="modal fade" id="SIGNIN" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			  <div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Sign in</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					  <span aria-hidden="true">&times;</span>
+					</button>
+				  </div>
+				  <div class="modal-body">SIGN IN HERE</div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">SIGN IN</button>
+				  </div>
+				</div>
+			  </div>
+			</div>	
+			
 		</nav>
 	</div>
+
+	
+	<p style="margin-left:100px; margin-top:50px; margin-right:50px;"><font color="white"></font></p>
 
 </body>
 </html>
