@@ -101,14 +101,6 @@ body {
 	background-size: cover;
 }
 
-.imga {
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-    display:block;
-    height:200px;
-}
-
 .bg {
     background-image:url(http://placehold.it/300x200/white/black);
 }
@@ -140,8 +132,9 @@ body {
 	color: blue;
 	font-weight: bold;
 	margin-top: 18px;
-	font-size: 13px;
-	padding: 15px 20px;
+	font-size: 12px;
+	padding: 12px 27px;
+	border: none;
 }
 
 .signup:hover {
