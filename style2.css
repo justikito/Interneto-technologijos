@@ -74,14 +74,12 @@ article .create {
 
 article .dot {
 	margin-bottom: 1px;
-}
-
-article .dot{
 	height: 16px;
 	width: 16px;
-	background-color: #4677FF;
+	background-color: white;
 	border-radius: 50%;
 	display: inline-block;
+	opacity: 0.9;
 }
 
 article .dot:hover {
@@ -89,7 +87,7 @@ article .dot:hover {
 	width: 20px;
 	border: 3px solid;
 	border-color: #FFB600;
-	background-color: #0043ff;
+	background-color: white;
 }
 
 body {
