@@ -100,10 +100,6 @@ body {
 	background-size: cover;
 }
 
-.bg {
-    background-image:url(http://placehold.it/300x200/white/black);
-}
-
 @font-face {
     font-family: 'SourceSansLight';
     src: url('sourcesanspro-light-webfont.woff2') format('woff2'),
@@ -145,6 +141,11 @@ body {
 	margin-right: 50px;
 	border-radius: 25px;
 	padding: 20px;
-	opacity: 0.85;
+	background-color: rgba(255, 255, 255, .8);
 }
 
+.column img {
+	margin-top: 40px;
+	vertical-align: middle;
+	width: 35%;
+}
