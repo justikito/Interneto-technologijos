@@ -149,16 +149,4 @@ body {
 	margin-right: 50px;
 }
 
-.btnLogin {
-	background-color: blue;
-	color: white;
-	font-size: 14px;
-	padding: 10px 27px;
-	font-weight: bold;
-}
-
-.btnLogin:hover {
-	color: white;
-	background-color: green;
-}
 
