@@ -38,22 +38,27 @@
 							<span aria-hidden="true">&times;</span>
 							</button>
 						</div>
+						<form>
 						<div class="modal-body mx-2">
 							<div class="form-row mb-4">
 								<div class="col">
-									<input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+									<input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name" required>
 								</div>
 								<div class="col">
 									<input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
 								</div>
 							</div>
-							<input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Email">
+							<input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Email" required>
 							<input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
 							<small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
 							At least 8 characters and 1 digit
 							</small>
+							<small class="form-text text-muted mb-4" style="margin-bottom: 0px">
+							Gimimo data (iki 1999-12-12)</small>
+							<input style="margin-top: -20px" type="date" id="start" class="form-control mb-4" name="trip-start" value="2020-01-01" min="1000-01-01" max="1999-12-12">
 							<button class="btn btn-info my-4 btn-block" type="submit">SIGN UP</button>
 						</div>
+						</form>
 					</div>
 				</div>
 			</div>
