@@ -1,4 +1,4 @@
-img {
+nav img {
 	margin-top: -5px;
 	margin-left: 60px;
 	margin-right: 35px;
@@ -149,4 +149,19 @@ body {
 	margin-right: 50px;
 }
 
+/* templates.html */
 
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+	float: left;
+	width: 25%;
+	max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+	border-radius: 2px; }
+
+.controls-top{
+	text-align: center;
+}
+
+/* templates.html */
