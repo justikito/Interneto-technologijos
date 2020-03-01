@@ -106,12 +106,6 @@ body {
     font-style: normal;
 }
 
-.nav-pills .nav-link.active {
-    background-color: white;
-	color: blue!important;
-	font-weight: bold;
-}
-
 .nav-pills{
     width:89%;
 }
@@ -147,3 +141,24 @@ body {
 	vertical-align: middle;
 	width: 35%;
 }
+
+.laukas {
+	color: black;
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.btnLogin {
+	background-color: blue;
+	color: white;
+	font-size: 14px;
+	padding: 10px 27px;
+	font-weight: bold;
+}
+
+.btnLogin:hover {
+	color: white;
+	background-color: green;
+}
+
