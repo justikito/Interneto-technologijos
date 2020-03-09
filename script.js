@@ -49,9 +49,7 @@ var kalba = {
 		signup: "REGISTRUOTIS",
 		did1: "Kurkite Neįtikėtiną",
 		did2: "Vaizdinę Mediją",
-		maz1: "Itin paprastas įrankis kurti šiuolaikiškus vaizdo įrašus ir paveikslėlius",
-		maz2: "jūsų skelbimams, socialiniams tinklams, tinklaraščiams ir svetainėms.",
-		maz3: "Padarykite savo projektą išskirtinį!",
+		maz: "Itin paprastas irankis kurti siuolaikiskus vaizdo irasus ir paveikslelius jusu skelbimams, socialiniams tinklams, tinklarasciams ir svetainems. Padarykite savo projekta isskirtini!",
 		crt: "KURTI DIZAINĄ ➜",
 		about: "APIE",
 		prod2: "Produktai",
@@ -74,13 +72,14 @@ var kalba = {
 			about.textContent=kalba.lt.about;
 			prod2.textContent=kalba.lt.prod2;	
 			temp2.textContent=kalba.lt.temp2;
-			price2.textContent=kalba.lt.price2;
+			price2.textContent=kalba.lt.price2;	
+			maz.textContent=kalba.lt.maz;				
 	}
 }
 
 //onclick
 for(i = 0; i <= dataReload.length; i++){
-dataReload[i].onclick=function(){
-window.location.reload(true);
-};
+	dataReload[i].onclick=function(){
+	window.location.reload(true);
+	};
 }

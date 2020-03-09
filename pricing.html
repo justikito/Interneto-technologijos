@@ -12,6 +12,7 @@
 
 </head>
 <body>
+
 	<div class="container-fluid">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="index2.html">
@@ -22,21 +23,22 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 			<ul class="navbar-nav nav nav-pills nav-justified mr-auto mt-2 mt-lg-0" id="meniu">
-				<li class="nav-item"><a href="index2.html">HOME</a></li>
-				<li class="nav-item"><a href="products.html">PRODUCTS</a></li>
-				<li class="nav-item"><a href="templates.html">TEMPLATES</a></li>
-				<li class="nav-item"><a class="pricing" href="pricing.html">PRICING</a></li>
-				<button type="button" class="btn btn-link signin" data-toggle="modal" data-target="#SIGNIN">SIGN IN</a></li>
-				<button type="button" class="btn btn-primary signup" data-toggle="modal" data-target="#SIGNUP">SIGN UP</button>
+				<li class="nav-item"><a href="index2.html" id="home1">HOME</a></li>
+				<li class="nav-item"><a href="products.html" id="prod1">PRODUCTS</a></li>
+				<li class="nav-item"><a href="templates.html" id="temp1">TEMPLATES</a></li>
+				<li class="nav-item"><a class="pricing" href="pricing.html" id="price1">PRICING</a></li>
+				<button type="button" class="btn btn-link signin" data-toggle="modal" data-target="#SIGNIN" id="signin1">SIGN IN</li>
+				<button type="button" class="btn btn-primary signup" data-toggle="modal" data-target="#SIGNUP" id="signup1">SIGN UP</button>
 			</ul>
 			</div>
 
 			<!-- SIGN UP pop-up mygtukas -->
+			
 			<div class="modal fade" id="SIGNUP" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header text-center">
-							<h4 class="modal-title w-100 font-weight-bold">SIGN UP</h4>
+							<h4 class="modal-title w-100 font-weight-bold" id="signup">SIGN UP</h4>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 							<span aria-hidden="true">&times;</span>
 							</button>
@@ -57,7 +59,7 @@
 							At least 8 characters and 1 digit
 							</small>
 							<small class="form-text text-muted mb-4" style="margin-bottom: 0px">
-							Gimimo data (iki 1999-12-12)</small>
+							Date of birth (up to 1999-12-12)</small>
 							<input style="margin-top: -20px" type="date" id="start" class="form-control mb-4" name="trip-start" value="2020-01-01" min="1000-01-01" max="1999-12-12">
 							<button class="btn btn-info my-4 btn-block" type="submit">SIGN UP</button>
 						</div>
@@ -126,13 +128,41 @@
 	</div>
 	</div>
 	
-	
-
-	<!--<div class="tekstolaukas">
-		<h1><b>PRICING</b></h1>
-		<p>Pricing is the process whereby a business sets the price at which it will sell its products and services, and may be part of the business's marketing plan. In setting prices, the business will take into account the price at which it could acquire the goods, the manufacturing cost, the market place, competition, market condition, brand, and quality of product.
-		</br>Pricing is a fundamental aspect of financial modeling and is one of the four Ps of the marketing mix, the other three aspects being product, promotion, and place. Price is the only revenue generating element amongst the four Ps, the rest being cost centers. However, the other Ps of marketing will contribute to decreasing price elasticity and so enable price increases to drive greater revenue and profits.
-		</br>Pricing can be a manual or automatic process of applying prices to purchase and sales orders, based on factors such as: a fixed amount, quantity break, promotion or sales campaign, specific vendor quote, price prevailing on entry, shipment or invoice date, combination of multiple orders or lines, and many others. Automated pricing systems require more setup and maintenance but may prevent pricing errors. The needs of the consumer can be converted into demand only if the consumer has the willingness and capacity to buy the product. Thus, pricing is the most important concept in the field of marketing, it is used as a tactical decision in response to changing competitive, market and organisational situations. 
-	</div> -->
+<br><br><br><br><br><br>
+<footer class="page-footer font-small">
+    <div class="container">
+        <div class="row text-center d-flex justify-content-center pt-4">
+            <div class="col-sm-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" id="about">About</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="index2.html" id="prod2">Home</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="products.html" id="temp2">Products</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="templates.html" id="price2">Templates</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-2"><font color="white">© 2020 Copyright</font>
+		<a href="#eng" data-reload>EN</a>
+		<a href="#lt" data-reload>LT</a>
+	</div>
+</footer>
+		
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -183,10 +183,20 @@ body {
 	opacity: 95%
 }
 
+footer a:hover {
+	text-decoration: none;
+	color: red;
+}
+
 .footer-copyright {
 	background: #ff5969;
 }
 
 .button-container {
-	margin-top: 40px;
+	margin-top: 30px;
+}
+
+.maz1 {
+	margin-right: 55%;
+	text-align: left;
 }
