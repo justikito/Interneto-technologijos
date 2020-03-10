@@ -200,3 +200,13 @@ footer a:hover {
 	margin-right: 55%;
 	text-align: left;
 }
+
+.vertimas:hover {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.vertimas {
+	font-weight: bold;
+}
