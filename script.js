@@ -80,6 +80,10 @@ var kalba = {
 //onclick
 for(i = 0; i <= dataReload.length; i++){
 	dataReload[i].onclick=function(){
-	window.location.reload(true);
+	setTimeout(function(){    
+           window.location.reload();    
+	},100);
 	};
 }
+
+
