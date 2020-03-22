@@ -5,11 +5,7 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=n">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="style2.css">
-
 </head>
 <body>
 <div class="container-fluid">
@@ -104,16 +100,45 @@
 		</nav>
 	</div>
 
-	<div class="row tekstolaukas">
-	  <div class="column">
-		<img src="2.jpg">
-		<img src="4.jpeg">
-	  </div>
-	  <div class="column">
-		<img src="3.jpg">
-		<span>Create Design</span>
-	  </div>
-  </div>
+
+	<div class="calc" id="calc">
+		<table>
+			<tr> 
+				<td colspan="4"><input type="text" id="result"/></td> 
+			</tr> 		
+			<tr>
+				<td><input type="button" value="C" onclick="valyti()"></td>
+				<td><input type="button" value="<" onclick="rasymas()"></td>
+				<td><input type="button" value="/" onclick="rasymas('/')"></td>
+				<td><input type="button" value="x" onclick="rasymas('*')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="7" onclick="rasymas('7')"></td>
+				<td><input type="button" value="8" onclick="rasymas('8')"></td>
+				<td><input type="button" value="9" onclick="rasymas('9')"></td>
+				<td><input type="button" value="-" onclick="rasymas('-')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="4" onclick="rasymas('4')"></td>
+				<td><input type="button" value="5" onclick="rasymas('5')"></td>
+				<td><input type="button" value="6" onclick="rasymas('6')"></td>
+				<td><input type="button" value="+" onclick="rasymas('+')"></td>
+			</tr>
+			<tr>
+				<td><input type="button" value="1" onclick="rasymas('1')"></td>
+				<td><input type="button" value="2" onclick="rasymas('2')"></td>
+				<td><input type="button" value="3" onclick="rasymas('3')"></td>
+				<td rowspan="5"><input style="height: 110px" type="button" value="=" onclick="lygu()"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input style="width: 107px" type="button" value="0" onclick="rasymas('0')"></td>
+				<td><input type="button" value="." onclick="rasymas('.')"></td>
+			</tr>
+		</table>
+	</div>
+
+
+
   
 <footer class="page-footer font-small fixed-bottom">
     <div class="container text-center">
@@ -145,8 +170,11 @@
 		<a class="vertimas" href="#lt" data-reload>LT</a>
 	</div>
 </footer>
-  
-  
 
+
+	<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

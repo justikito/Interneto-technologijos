@@ -41,7 +41,7 @@ h6 a {
 article {
 	color: white;
 	font-family: sans-serif;
-	font-size: 5.9vw;
+	font-size: 4.9vw;
 	margin-top: 20px;
 	margin-left: 100px;
 }
@@ -189,3 +189,26 @@ footer a:hover {
 .vertimas {
 	font-weight: bold;
 }
+
+/* Skaiciuotuvas */
+
+.calc {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translateX(-50%)translateY(-50%);
+}
+
+input[type="button"] { 
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	cursor: pointer;
+	margin-top: 3px;
+} 
+
+input[type="text"] { 
+	width: 217px;
+	margin: 1px;
+	font-size: 25px;
+} 

@@ -50,11 +50,12 @@ var kalba = {
 		did1: "Kurkite Neįtikėtiną",
 		did2: "Vaizdinę Mediją",
 		maz: "Itin paprastas irankis kurti siuolaikiskus vaizdo irasus ir paveikslelius jusu skelbimams, socialiniams tinklams, tinklarasciams ir svetainems. Padarykite savo projekta isskirtini!",
-		crt: "KURTI DIZAINĄ ➜",
+		crt: "SKAIČIUOTUVAS ➜",
 		about: "APIE",
 		prod2: "Produktai",
 		temp2: "Šablonai",
-		price2: "Kainos"
+		price2: "Kainos",
+		prod2: "PRODDUKTAI"
 	}
 };
 
@@ -73,7 +74,8 @@ var kalba = {
 			prod2.textContent=kalba.lt.prod2;	
 			temp2.textContent=kalba.lt.temp2;
 			price2.textContent=kalba.lt.price2;	
-			maz.textContent=kalba.lt.maz;				
+			maz.textContent=kalba.lt.maz;		
+			prod2.textContent=kalba.lt.prod2;
 	}
 }
 
@@ -86,4 +88,19 @@ for(i = 0; i <= dataReload.length; i++){
 	};
 }
 
+
+//Skaiciuotuvas
+function rasymas(val) { 
+	document.getElementById("result").value+=val 
+} 
+
+function lygu() { 
+	let x = document.getElementById("result").value 
+	let y = eval(x) 
+	document.getElementById("result").value = y 
+} 
+
+function valyti() { 
+	document.getElementById("result").value = "" 
+} 
 
