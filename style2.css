@@ -212,3 +212,9 @@ input[type="text"] {
 	margin: 1px;
 	font-size: 25px;
 } 
+
+.calcbuttons{
+	font-weight: bold;
+	background-color: white;
+	color: #888888;
+}
