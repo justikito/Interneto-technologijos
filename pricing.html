@@ -12,6 +12,7 @@
 
 </head>
 <body>
+
 	<div class="container-fluid">
 		<nav class="navbar navbar-expand-lg navbar-light">
 			<a class="navbar-brand" href="index2.html">
@@ -22,60 +23,145 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 			<ul class="navbar-nav nav nav-pills nav-justified mr-auto mt-2 mt-lg-0" id="meniu">
-				<li class="nav-item"><a href="index2.html">HOME</a></li>
-				<li class="nav-item"><a href="products.html">PRODUCTS</a></li>
-				<li class="nav-item"><a href="templates.html">TEMPLATES</a></li>
-				<li class="nav-item"><a class="pricing" href="pricing.html">PRICING</a></li>
-				<button type="button" class="btn btn-link signin" data-toggle="modal" data-target="#SIGNIN">SIGN IN</a></li>
-				<button type="button" class="btn btn-primary signup" data-toggle="modal" data-target="#SIGNUP">SIGN UP</button>
+				<li class="nav-item"><a href="index2.html" id="home1">HOME</a></li>
+				<li class="nav-item"><a href="products.html" id="prod1">PRODUCTS</a></li>
+				<li class="nav-item"><a href="templates.html" id="temp1">TEMPLATES</a></li>
+				<li class="nav-item"><a class="solid" href="pricing.html" id="price1">PRICING</a></li>
+				<li class="nav-item"><a href="#" data-toggle="modal" data-target="#SIGNIN" id="signin1">SIGN IN</a></li>
+				<button type="button" class="btn btn-primary signup" data-toggle="modal" data-target="#SIGNUP" id="signup1">SIGN UP</button>
 			</ul>
 			</div>
 
 			<!-- SIGN UP pop-up mygtukas -->
-			<div class="modal fade" id="SIGNUP" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-			  <div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-				  <div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Sign up</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					  <span aria-hidden="true">&times;</span>
-					</button>
-				  </div>
-				  <div class="modal-body">SIGN UP HERE</div>
-				  <div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">SIGN UP</button>
-				  </div>
-				</div>
-			  </div>
-			</div>	
-			<!-- SIGN IN pop-up mygtukas -->
-			<div class="modal fade" id="SIGNIN" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-			  <div class="modal-dialog modal-dialog-centered" role="document">
-				<div class="modal-content">
-				  <div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Sign in</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					  <span aria-hidden="true">&times;</span>
-					</button>
-				  </div>
-				  <div class="modal-body">SIGN IN HERE</div>
-				  <div class="modal-footer">
-					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary">SIGN IN</button>
-				  </div>
-				</div>
-			  </div>
-			</div>	
 			
+			<div class="modal fade" id="SIGNUP" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header text-center">
+							<h4 class="modal-title w-100 font-weight-bold" id="signup">SIGN UP</h4>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<form>
+						<div class="modal-body mx-2">
+							<div class="form-row mb-4">
+								<div class="col">
+									<input type="text" id="RegisterFN" class="form-control" placeholder="First name" required>
+								</div>
+								<div class="col">
+									<input type="text" id="RegisterLN" class="form-control" placeholder="Last name" required>
+								</div>
+							</div>
+							<input type="email" id="RegisterEmail" class="form-control mb-4" placeholder="Email" required>
+							<input type="password" id="RegisterPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock" required>
+							<small id="RegisterHelp" class="form-text text-muted mb-4">
+							At least 8 characters and 1 digit
+							</small>
+							<small class="form-text text-muted mb-4" style="margin-bottom: 0px">
+							Date of birth (up to 1999-12-12)</small>
+							<input style="margin-top: -20px" type="date" id="start" class="form-control mb-4" name="trip-start" value="2020-01-01" min="1000-01-01" max="1999-12-12">
+							<button class="btn btn-info my-4 btn-block" type="submit">SIGN UP</button>
+						</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<!-- SIGN IN pop-up mygtukas -->
+
+			<div class="modal fade" id="SIGNIN" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header text-center">
+							<h4 class="modal-title w-100 font-weight-bold">Sign in</h4>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body mx-2">
+							<div class="md-form">
+								<input type="email" id="emailForm" class="form-control validate" placeholder="Email">
+								<label data-error="wrong" data-success="right" for="defaultForm-email"></label>
+							</div>
+							<div class="md-form">
+								<input type="password" id="passForm" class="form-control validate" placeholder="Password">
+								<label data-error="wrong" data-success="right" for="defaultForm-pass"></label>
+							</div>
+							<div class="d-flex">
+								<div>
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+										<label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal-footer d-flex justify-content-center">
+							<button class="btn btn-info my-4 btn-block btnLogin">LOGIN</button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</nav>
 	</div>
-
-	<div class="tekstolaukas">
-		<h1><b>PRICING</b></h1>
-		<p>Pricing is the process whereby a business sets the price at which it will sell its products and services, and may be part of the business's marketing plan. In setting prices, the business will take into account the price at which it could acquire the goods, the manufacturing cost, the market place, competition, market condition, brand, and quality of product.
-		</br>Pricing is a fundamental aspect of financial modeling and is one of the four Ps of the marketing mix, the other three aspects being product, promotion, and place. Price is the only revenue generating element amongst the four Ps, the rest being cost centers. However, the other Ps of marketing will contribute to decreasing price elasticity and so enable price increases to drive greater revenue and profits.
-		</br>Pricing can be a manual or automatic process of applying prices to purchase and sales orders, based on factors such as: a fixed amount, quantity break, promotion or sales campaign, specific vendor quote, price prevailing on entry, shipment or invoice date, combination of multiple orders or lines, and many others. Automated pricing systems require more setup and maintenance but may prevent pricing errors. The needs of the consumer can be converted into demand only if the consumer has the willingness and capacity to buy the product. Thus, pricing is the most important concept in the field of marketing, it is used as a tactical decision in response to changing competitive, market and organisational situations. 
+	
+	<div class="container laukas">
+	<h1><b><font color="white">PRICING</font></b></h1>
+	<div class="row">
+	  <div class="col-4">
+		<div class="list-group" role="tablist">
+		  <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">iPhone X</a>
+		  <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">iPhone Xs</a>
+		  <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">iPhone 11</a>
+		  <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">iPhone 11 Pro</a>
+		</div>
+	  </div>
+	  <div class="col-8">
+		<div class="tab-content" id="nav-tabContent">
+		  <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+		  <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+		  <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+		  <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+		</div>
+	  </div>
 	</div>
+	</div>
+	
+<footer class="page-footer font-small fixed-bottom">
+    <div class="container text-center">
+        <div class="row text-center d-flex justify-content-center pt-2">
+            <div class="col-sm-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="#!" id="about">About</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="products.html" id="prod2">Products</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="template.html" id="temp2">Templates</a>
+                </h6>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6 class="text-uppercase font-weight-bold">
+                    <a href="pricing.html" id="price2">Pricing</a>
+                </h6>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-1"><font color="white">© 2020 Copyright</font>
+		<a class="vertimas" href="#eng" data-reload>EN</a>
+		<a class="vertimas" href="#lt" data-reload>LT</a>
+	</div>
+</footer>
+		
+<script src="script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

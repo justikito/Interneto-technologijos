@@ -1,4 +1,4 @@
-img {
+nav img {
 	margin-top: -5px;
 	margin-left: 60px;
 	margin-right: 35px;
@@ -8,27 +8,20 @@ nav a {
 	color: white;
 	margin-right: 25px;
 	font-size: 13px;
-	margin-top: 35px;
+	margin-top: 20px;
 	display: inline-block;
+	transition: 0.1s;
 }
 
-.home{
+h6 a {
+	color: white;
+}
+
+.solid{
 	border-bottom: 3px solid white;
 }
 
-.templates{
-	border-bottom: 3px solid white;
-}
-
-.pricing{
-	border-bottom: 3px solid white;
-}
-
-.products{
-	border-bottom: 3px solid white;
-}
-
-#meniu a:hover{
+#meniu a:hover {
 	color: white;
 	text-decoration: none;
 	border-bottom: 3px solid white;
@@ -37,7 +30,7 @@ nav a {
 .signin{
 	color: white;
 	font-size: 13px;
-	margin-top: 25px;
+	margin-right: 25px;
 }
 
 .signin:hover{
@@ -48,8 +41,8 @@ nav a {
 article {
 	color: white;
 	font-family: sans-serif;
-	font-size: 5.9vw;
-	margin-top: 80px;
+	font-size: 4.9vw;
+	margin-top: 20px;
 	margin-left: 100px;
 }
 
@@ -66,10 +59,6 @@ article .create {
 	border-radius: 6px;
 	padding: 15px 25px;
 	font-size: 10px;
-}
-
-.home{
-	border-bottom: 3px solid white;
 }
 
 article .dot {
@@ -106,12 +95,6 @@ body {
     font-style: normal;
 }
 
-.nav-pills .nav-link.active {
-    background-color: white;
-	color: blue!important;
-	font-weight: bold;
-}
-
 .nav-pills{
     width:89%;
 }
@@ -120,10 +103,11 @@ body {
 	background-color: white;
 	color: blue;
 	font-weight: bold;
-	margin-top: 22px;
+	margin-top: 10px;
 	font-size: 12px;
 	padding: 12px 27px;
 	border: none;
+	margin-right: 25px;
 }
 
 .signup:hover {
@@ -146,4 +130,91 @@ body {
 	margin-top: 40px;
 	vertical-align: middle;
 	width: 35%;
+}
+
+.laukas {
+	color: black;
+	margin-left: 100px;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+/* templates.html */
+
+@media (min-width: 768px) {
+.carousel-multi-item-2 .col-md-3 {
+	float: left;
+	width: 25%;
+	max-width: 100%; } }
+
+.carousel-multi-item-2 .card img {
+	border-radius: 2px; }
+
+.controls-top{
+	text-align: center;
+}
+
+/* templates.html */
+
+.table-responsive {
+	width: 80%;
+}
+
+.page-footer {
+	background: #333232;
+	opacity: 95%;
+	bottom:0px;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.footer-copyright {
+	background: #ff5969;
+}
+
+.maz1 {
+	margin-right: 55%;
+	text-align: left;
+}
+
+.vertimas:hover {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.vertimas {
+	font-weight: bold;
+}
+
+/* Skaiciuotuvas */
+
+.calc {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translateX(-50%)translateY(-50%);
+}
+
+input[type="button"] { 
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	cursor: pointer;
+	margin-top: 3px;
+} 
+
+input[type="text"] { 
+	width: 217px;
+	margin: 1px;
+	font-size: 25px;
+} 
+
+.calcbuttons{
+	font-weight: bold;
+	background-color: white;
+	color: #888888;
 }
