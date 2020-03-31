@@ -166,6 +166,10 @@ body {
 	bottom:0px;
 }
 
+footer h6{
+	margin-top: 10px;
+}
+
 footer a:hover {
 	text-decoration: none;
 	color: red;
