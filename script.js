@@ -91,7 +91,12 @@ for(i = 0; i <= dataReload.length; i++){
 
 //Skaiciuotuvas
 function rasymas(val) { 
-	document.getElementById("result").value+=val 
+	if(document.getElementById("result").value>9999999 && val != "+" && val != "-" && val != "/" && val != "*"){
+		document.getElementById("result").value
+	}
+	else{
+		document.getElementById("result").value+=val
+	}
 } 
 
 function lygu() { 
