@@ -55,7 +55,6 @@ var kalba = {
 		prod2: "Produktai",
 		temp2: "Šablonai",
 		price2: "Kainos",
-		prod2: "PRODDUKTAI"
 	}
 };
 
@@ -90,7 +89,7 @@ for(i = 0; i <= dataReload.length; i++){
 
 
 //Skaiciuotuvas
-function rasymas(val) { 
+function writing(val) { 
 	if(document.getElementById("result").value>9999999 && val != "+" && val != "-" && val != "/" && val != "*"){
 		document.getElementById("result").value
 	}
@@ -99,13 +98,13 @@ function rasymas(val) {
 	}
 } 
 
-function lygu() { 
+function equal() { 
 	let x = document.getElementById("result").value 
 	let y = eval(x) 
 	document.getElementById("result").value = y 
 } 
 
-function valyti() { 
+function clearw() { 
 	document.getElementById("result").value = "" 
 } 
 

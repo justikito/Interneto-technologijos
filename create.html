@@ -104,32 +104,32 @@
 	<div class="calc" id="calc" style="background-color: #a7d0e7; padding: 20px; ">
 		<table>
 			<tr> 
-				<td><input type="button" value="C" onclick="valyti()" style="background-color: #f2a3aa; color: white; width: 70px;" class="calcbuttons"></td>
+				<td><input type="button" value="C" onclick="clearw()" style="background-color: #f2a3aa; color: white; width: 70px;" class="calcbuttons"></td>
 				<td colspan="3"><input type="text" id="result" style="background-color: #83a6b9; color: white; height: 50px; margin-top: 6px;" class="calcbuttons"/></td> 
 			</tr> 
 			<tr>
-				<td><input style="width: 70px;" type="button" value="7" onclick="rasymas('7')" class="calcbuttons"></td>
-				<td><input style="width: 70px;" type="button" value="8" onclick="rasymas('8')" class="calcbuttons"></td>
-				<td><input style="width: 70px;" type="button" value="9" onclick="rasymas('9')" class="calcbuttons"></td>
-				<td><input type="button" value="+" onclick="rasymas('+')" class="calcbuttons" style="background-color: #fdf1f5; width: 70px;"></td>
+				<td><input style="width: 70px;" type="button" value="7" onclick="writing('7')" class="calcbuttons"></td>
+				<td><input style="width: 70px;" type="button" value="8" onclick="writing('8')" class="calcbuttons"></td>
+				<td><input style="width: 70px;" type="button" value="9" onclick="writing('9')" class="calcbuttons"></td>
+				<td><input type="button" value="+" onclick="writing('+')" class="calcbuttons" style="background-color: #fdf1f5; width: 70px;"></td>
 			</tr>
 			<tr>
-				<td><input style="width: 70px;" type="button" value="4" onclick="rasymas('4')" class="calcbuttons"></td>
-				<td><input style="width: 70px;" type="button" value="5" onclick="rasymas('5')" class="calcbuttons"></td>
-				<td><input style="width: 70px;" type="button" value="6" onclick="rasymas('6')" class="calcbuttons"></td>
-				<td><input type="button" value="-" onclick="rasymas('-')" class="calcbuttons" style="background-color: #fdf1f5; width: 70px;"></td>
+				<td><input style="width: 70px;" type="button" value="4" onclick="writing('4')" class="calcbuttons"></td>
+				<td><input style="width: 70px;" type="button" value="5" onclick="writing('5')" class="calcbuttons"></td>
+				<td><input style="width: 70px;" type="button" value="6" onclick="writing('6')" class="calcbuttons"></td>
+				<td><input type="button" value="-" onclick="writing('-')" class="calcbuttons" style="background-color: #fdf1f5; width: 70px;"></td>
 			</tr>
 			<tr>
-				<td><input style="width: 70px;" type="button" value="1" onclick="rasymas('1')" class="calcbuttons"></td>
-				<td><input style="width: 70px;" type="button" value="2" onclick="rasymas('2')" class="calcbuttons"></td>
-				<td><input style="width: 70px;" type="button" value="3" onclick="rasymas('3')" class="calcbuttons"></td>
-				<td><input type="button" value="÷" onclick="rasymas('/')" class="calcbuttons" style="background-color: #fdf1f5; width: 70px;"></td>
+				<td><input style="width: 70px;" type="button" value="1" onclick="writing('1')" class="calcbuttons"></td>
+				<td><input style="width: 70px;" type="button" value="2" onclick="writing('2')" class="calcbuttons"></td>
+				<td><input style="width: 70px;" type="button" value="3" onclick="writing('3')" class="calcbuttons"></td>
+				<td><input type="button" value="÷" onclick="writing('/')" class="calcbuttons" style="background-color: #fdf1f5; width: 70px;"></td>
 			</tr>
 			<tr>
-				<td><input style="width: 70px;" type="button" value="0" onclick="rasymas('0')" class="calcbuttons"></td>
-				<td><input style="width: 70px;" type="button" value="." onclick="rasymas('.')" class="calcbuttons"></td>
-				<td><input style="background-color: #f4fda0; color: #898d64; width: 70px;" type="button" value="=" onclick="lygu()" class="calcbuttons"></td>
-				<td><input type="button" value="x" onclick="rasymas('*')" class="calcbuttons" style="background-color: #fdf1f5; width: 70px;"></td>
+				<td><input style="width: 70px;" type="button" value="0" onclick="writing('0')" class="calcbuttons"></td>
+				<td><input style="width: 70px;" type="button" value="." onclick="writing('.')" class="calcbuttons"></td>
+				<td><input style="background-color: #f4fda0; color: #898d64; width: 70px;" type="button" value="=" onclick="equal()" class="calcbuttons"></td>
+				<td><input type="button" value="x" onclick="writing('*')" class="calcbuttons" style="background-color: #fdf1f5; width: 70px;"></td>
 			</tr>
 		</table>
 	</div>
